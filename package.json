@@ -1,0 +1,14 @@
+{
+  "name": "subtoarctime",
+  "version": "1.0.0",
+  "description": "一个 nodejs 脚本，用来把英文字幕 txt 文件处理成符合 arctime 双语字幕的形式。",
+  "main": "translate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-translate-open-api": "^1.3.2"
+  }
+}
