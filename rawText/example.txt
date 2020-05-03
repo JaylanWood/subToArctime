@@ -1,5 +1,14 @@
 [00:00:03]
->> Jie : Hello. My house is quite big. You are so brave. Let me see see.
+>> Jie : Hello. My name is Jie. My house is quite big. Would you like to come to my house? You can play games.
 
 [00:00:22]
->> Wei: I am super brave. Bin is so weak.
+>> Wei: That's Great. Let's go.
+
+[00:01:22]
+>> Wei: Bin is so weak. He is drunk.
+
+[00:02:22]
+>> Jie : You are so brave. Let me see see.
+
+[00:00:22]
+>> Wei: No, Jie!

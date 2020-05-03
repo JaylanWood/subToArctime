@@ -6,6 +6,7 @@ const speakerRegex = />>[a-zA-Z0-9_-\s]+:\s/g
 const sliceRegex = /\n/g
 const nullRegex = /^$/g
 const breakRegex = /\.\s/g
+const questRegex = /\?\s/g
 
 const replaceYouRegex = /您/g
 const replaceFnRegex = /功能/g
@@ -53,6 +54,7 @@ function dealWithString(fileStr) {
     .replaceString(timeRegex, '', fileStr)
     .replaceString(speakerRegex, '')
     .replaceString(breakRegex, '.\n')
+    .replaceString(questRegex, '?\n')
     .sliceStringToArray(sliceRegex)
     .filterArrayItem(nullRegex)
     .array
